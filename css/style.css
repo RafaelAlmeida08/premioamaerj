@@ -1,0 +1,120 @@
+#myInput {
+    padding: 20px;
+    margin-top: -6px;
+    border: 0;
+    border-radius: 0;
+    background: #f1f1f1;
+  }
+
+
+.unsec
+{
+pointer-events:none;
+}
+
+.bloco1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.bloco2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.quadrado
+{
+    padding:30px;
+}
+
+.quadrado h2
+{
+	text-align:center;
+}
+
+.imgCadastro
+{    
+    text-align: center;
+    background: url(https://i.imgur.com/PZ8Qhn7.png);
+}
+
+.imgCadastro img
+{    
+    width: 100%;
+}
+
+.formCadastro
+{    
+    text-align: initial;
+}
+
+.buttonCadastro
+{    
+    margin-top: 5px;
+}
+
+.btnLogin
+{    
+    margin-top: 10px;
+}
+
+.inputCadastro
+{    
+    margin-top: 5px;
+}
+
+.lock {
+    background: gray;
+    border-radius: 3px;
+    width: 25px;
+    height: 20px;
+    margin-top: 60px;
+    margin-left: 60px;
+    position: relative;
+  }
+  
+  .lock:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border:3px solid gray;
+    top: -14px;
+    left: 2.3px;
+    width: 15px;
+    height: 27px;
+    border-radius: 35px 35px 0 0;
+  }
+
+  .cadeado{
+    display: flex;
+    align-items: flex-end;
+  }
+  
+.cadeado a{
+    text-decoration: none;
+    color: white;
+}
+
+.iconehome{
+    position: absolute;
+    right: 6%;
+    bottom: 85%;
+}
+
+.fa{
+    margin: 0 0 0 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    color: #fff;
+    background: #e95950;
+}
+
+.jumbopainel
+{
+	margin-top:25px;
+}

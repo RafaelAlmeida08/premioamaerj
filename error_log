@@ -1,0 +1,2 @@
+[09-Jul-2020 20:06:25 UTC] PHP Fatal error:  Cannot redeclare Listar::candidatotrabalhosacademicos() in /home/zo2rrmvh8h6g/public_html/premioamaerj/application/controllers/Listar.php on line 50
+[11-Jul-2020 18:59:25 UTC] PHP Warning:  Unterminated comment starting line 51 in /home/zo2rrmvh8h6g/public_html/premioamaerj/application/views/trabalhos/admin/trabalhosacademicos.php on line 51

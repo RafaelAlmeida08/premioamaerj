@@ -1,0 +1,201 @@
+@media (min-device-width:320px)
+{       
+    body   
+     {        
+         background-color: #f5f7f8;
+     }    
+         
+     .botaoadmin
+	{
+		justify-content: center;
+	}
+     .quadrado2
+     {
+         text-align: center;
+     }
+
+     .quadrado2 img
+    {
+        width: 100%;
+    }
+
+    .imgCadastro    
+    {            
+        display: flex;    
+        justify-content: center;   
+        
+    }    
+                    
+                    
+    .imgCadastro img  
+    {        
+        padding: 30px;    
+    } 
+
+    .categoriaIndex h4  
+    {        
+        text-align: center;  
+    }    
+                              
+    .botaoCategoriaTrabalho     
+    {        
+        text-align: center; 
+        padding: 15px; 
+    }    
+    
+    .imagemAmaerj    
+    {        
+        display: none;
+    
+    } 
+    
+    .bloco1
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bloco2
+
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .quadrado
+    {
+        text-align: center;
+    }
+
+    .quadrado img
+    {       
+        border: 5px solid white;
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+  
+    .quadrado:hover img
+    {
+        opacity: 0.3;
+    }  
+
+
+    .quadrado a
+    {
+        color: white;
+    }
+
+    .quadrado a:hover
+    {
+        text-decoration: none;
+    }
+
+
+}
+
+@media (min-device-width:480px)
+{    
+
+}
+
+@media (min-device-width:600px)
+{    
+
+}
+
+@media (min-device-width:768px)
+{       
+
+   .botaoadmin
+	{
+		justify-content: flex-start;
+	}
+    .bloco1
+    {
+        
+        flex-direction: row;
+    }
+
+    .bloco2
+
+    {
+       
+    flex-direction: row;
+    }
+
+    
+
+
+    .imgCadastro
+    {    
+        background: url(https://amaerj.org.br/wp-content/uploads/2020/04/head2020.png);
+        background-size: cover;    
+        background-repeat: no-repeat;    
+    }    
+    
+    .imgCadastro a    
+    {        
+        display: flex;  
+        align-items: center; 
+    }    
+               
+    .form-group-Cadastro
+    {      
+        padding: 15px;
+    }    
+    
+    .formCadastro    
+    {       
+        border: 1px solid #d4dbe0;
+    }    
+}
+
+@media (min-device-width:1024px)
+{    
+    .imagemAmaerj    
+    {        
+        max-width: 33%;
+        text-align: center;
+        display: initial;
+    }    
+    
+    .imagemAmaerj a     
+    {                
+        padding-top: 60px;
+    }
+
+    .imagemAmaerj a img 
+    {        
+        width: 50%;
+        padding-top: 60px;
+    }    
+    
+    .desc    
+    {        
+        max-width: 66.666667%;
+        margin-bottom: 20px;
+    }    
+    .desc p     
+    {        
+        padding: 10px; 
+    }
+}
+    
+@media (min-device-width:1200px)
+{    
+    .imgCadastro
+    {        
+        min-height: 200px;
+    }
+
+    .quadrado
+    {
+        width: 60%;
+    }
+}
